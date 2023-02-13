@@ -1,5 +1,11 @@
 # Crear Base de Datos 
 
+## Query 00.
+```sql
+CREATE DATABASE db_Test;
+```
+
+
 
 ```sql
 DROP TABLE IF EXISTS world;
