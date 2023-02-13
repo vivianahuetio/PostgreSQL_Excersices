@@ -27,6 +27,10 @@ COPY world
 FROM '/private/tmp/Tabla_World2.csv'
 WITH (FORMAT CSV, HEADER TRUE, DELIMITER ';');
 
+
+Con esta última visualizamos la tabla:
+
+```sql
 SELECT *
 FROM world
 ````
