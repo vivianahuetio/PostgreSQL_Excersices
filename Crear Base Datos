@@ -3,8 +3,6 @@
 ```sql
 DROP TABLE IF EXISTS world;
 
-
-```sql
 CREATE TABLE world (
 name varchar(35),
 continent varchar(20),
