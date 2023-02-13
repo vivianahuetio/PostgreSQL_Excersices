@@ -1,8 +1,10 @@
 Crear Base de Datos 
 
-```
+```sql
 DROP TABLE IF EXISTS world;
 
+
+```sql
 CREATE TABLE world (
    name varchar(35),
    continent varchar(20),
@@ -13,7 +15,9 @@ CREATE TABLE world (
    tld varchar(5),
    flag varchar(100)
 );
-```
+
+
+
 
 
 
