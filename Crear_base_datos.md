@@ -20,4 +20,7 @@ flag varchar(100)
 COPY world
 FROM '/private/tmp/Tabla_World2.csv'
 WITH (FORMAT CSV, HEADER TRUE, DELIMITER ';');
+
+SELECT *
+FROM world
 ````
